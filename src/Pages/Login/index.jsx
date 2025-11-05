@@ -24,7 +24,7 @@ export function Login(){
                             <a href="#">Esqueci minha senha</a>
                         </div>
                         
-                        <ButtonComponent nomeBotao='Login'/>
+                        <ButtonComponent nomeBotao='Login' path='/home'/>
                         
                         <div className={styles.registerLinks}>
                             <p>Não tem conta? <a href="#">Cadastre-se</a></p>

@@ -1,9 +1,16 @@
+import { useNavigate } from "react-router";
 import { StyledButton } from "./style";
-export const ButtonComponent = ({nomeBotao}) => {
-    var funcao = nomeBotao
-    return(
-        <StyledButton>
-            {funcao}
-        </StyledButton>
-    );
-}
+export const ButtonComponent = ({ nomeBotao, path }) => {
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(path);
+  };
+
+  return (
+    <StyledButton onClick={handleClick}>
+      {nomeBotao}
+    </StyledButton>
+  );
+};

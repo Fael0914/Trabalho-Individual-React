@@ -16,6 +16,7 @@ export function Home(){
                 <Card conteudoDoCard="Doe 20 pontos para esse cachorrinho" imagem={cachorro2}/>
                 <Card conteudoDoCard="Doe 50 pontos para esse cachorrinho" imagem={cachorro3}/>
             </div>
+            
         </div>
     )
 }
