@@ -1,9 +1,10 @@
- import styles from'./style.module.css'
+ import { Link } from 'react-router'
+import styles from'./style.module.css'
  export const Navbar = () => {
      return(
         <div className={styles.body}>
             <nav>
-                <a  className={styles.logo}>Loja</a>
+                <Link to="/" className={styles.logo}>Loja</Link>
                 <div className={styles.mobileMenu}>
                     <div ></div>
                     <div ></div>
