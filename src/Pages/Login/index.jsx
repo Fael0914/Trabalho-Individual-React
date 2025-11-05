@@ -1,5 +1,5 @@
-import { ButtonComponent } from "../Components/Button";
-import { InputGeneric } from "../Components/Input";
+import { ButtonComponent } from "../../Components/Button";
+import { InputGeneric } from "../../Components/Input";
 import styles from './style.module.css'
 
 export function Login(){

@@ -1,6 +1,6 @@
 import styles from './style.module.css'
-import { Navbar } from './../Components/Navbar/index';
-import { Card } from '../Components/Cards';
+import { Navbar } from '../../Components/Navbar';
+import { Card } from '../../Components/Cards';
 import cachorro1 from '../../assets/cachorro1.jpg'
 import cachorro2 from '../../assets/cachorro2.jpg'
 import cachorro3 from '../../assets/cachorro3.jpg'
